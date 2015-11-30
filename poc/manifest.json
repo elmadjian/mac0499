@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+
+  "name": "Text 3.0",
+  "description": "This extension allows the user to have an augmented reading experience",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_title": "Text 3.0"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*", "file:///*"],
+      "js":["app.js", "jquery-2.1.4.min.js", "jquery.blast.min.js"],
+      "css": ["content.css"],
+      "run_at": "document_end"
+    }
+  ],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+    "tabs",
+    "background",
+    "https://ajax.googleapis.com/",
+    "http://*/",
+    "https://*/"
+  ],
+
+  "web_accessible_resources": [
+    "images/fundo.png"
+  ]
+}

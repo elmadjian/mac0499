@@ -1,0 +1,329 @@
+SciDAVis 1.0.8 project file
+<scripting-lang>	muParser
+<windows>	7
+<table>
+21220
+<table creation_time="1915-22-07 12:58:00:000" caption_spec="%n%C{ - }%c" name="Table1" columns="13" rows="30"><comment><![CDATA[]]></comment><column creation_time="2015-22-07 12:58:49:908" caption_spec="%n%C{ - }%c" name="1" type="TypeQString" mode="Text" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2015-22-07 13:31:44:367" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="SimpleCopyThroughFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2015-22-07 13:31:44:367" caption_spec="%n%C{ - }%c" name="OutputFilter" filter_name="SimpleCopyThroughFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeQString" index="0" invalid="no">Campbell e Maglio</row><row type="TypeQString" index="1" invalid="no"></row><row type="TypeQString" index="2" invalid="no">Buscher et al.</row><row type="TypeQString" index="3" invalid="no"></row><row type="TypeQString" index="4" invalid="no">Algoritmo proposto</row><row type="TypeQString" index="5" invalid="yes"></row></column><column creation_time="2015-22-07 12:58:49:908" caption_spec="%n%C{ - }%c" name="L30Hz" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2015-22-07 12:58:49:908" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2015-22-07 12:58:49:908" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">5.4039999999999999e+01</row><row type="TypeDouble" index="1" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">9.0250000000000000e+01</row><row type="TypeDouble" index="3" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">9.0670000000000002e+01</row></column><column creation_time="2015-22-07 13:34:41:547" caption_spec="%n%C{ - }%c" name="L30HzEr" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2015-22-07 13:52:35:611" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2015-22-07 13:52:35:611" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">3.4948500000000000e+00</row><row type="TypeDouble" index="1" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">1.6838500000000001e+00</row><row type="TypeDouble" index="3" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">1.6994400000000001e+00</row><row type="TypeDouble" index="5" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="6" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="7" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="8" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="9" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="10" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="11" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="12" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="13" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="14" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="15" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="16" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="17" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="18" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="19" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="20" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="21" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="22" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="23" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="24" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="25" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="26" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="27" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="28" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="29" invalid="yes">0.0000000000000000e+00</row></column><column creation_time="2015-22-07 13:42:18:230" caption_spec="%n%C{ - }%c" name="L10Hz" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2015-22-07 13:42:18:230" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2015-22-07 13:42:18:230" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">3.8200000000000003e+01</row><row type="TypeDouble" index="1" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">5.0820000000000000e+01</row><row type="TypeDouble" index="3" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">9.2010000000000005e+01</row><row type="TypeDouble" index="5" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="6" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="7" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="8" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="9" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="10" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="11" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="12" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="13" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="14" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="15" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="16" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="17" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="18" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="19" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="20" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="21" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="22" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="23" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="24" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="25" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="26" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="27" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="28" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="29" invalid="no">0.0000000000000000e+00</row></column><column creation_time="2015-22-07 20:19:38:747" caption_spec="%n%C{ - }%c" name="L10HzEr" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2015-22-07 20:19:38:747" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2015-22-07 20:19:38:748" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">5.9584599999999996e+00</row><row type="TypeDouble" index="1" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">9.0450700000000008e+00</row><row type="TypeDouble" index="3" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">9.0576000000000001e-01</row></column><column creation_time="2015-11-11 22:32:01:193" caption_spec="%n%C{ - }%c" name="L5Hz" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2015-11-11 22:32:01:193" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2015-11-11 22:32:01:193" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">8.3100000000000005e+00</row><row type="TypeDouble" index="1" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">2.1699999999999999e+00</row><row type="TypeDouble" index="3" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">9.1569999999999993e+01</row><row type="TypeDouble" index="5" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="6" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="7" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="8" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="9" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="10" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="11" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="12" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="13" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="14" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="15" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="16" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="17" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="18" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="19" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="20" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="21" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="22" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="23" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="24" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="25" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="26" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="27" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="28" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="29" invalid="no">0.0000000000000000e+00</row></column><column creation_time="2015-11-11 22:32:02:945" caption_spec="%n%C{ - }%c" name="L5HzEr" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2015-11-11 22:32:02:945" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2015-11-11 22:32:02:945" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">3.5903700000000001e+00</row><row type="TypeDouble" index="1" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">2.8299599999999998e+00</row><row type="TypeDouble" index="3" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">8.0662000000000000e-01</row></column><column creation_time="2015-11-11 22:32:04:633" caption_spec="%n%C{ - }%c" name="Im30Hz" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2015-11-11 22:32:04:633" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2015-11-11 22:32:04:633" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">9.0859999999999999e+01</row><row type="TypeDouble" index="1" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">5.0780000000000001e+01</row><row type="TypeDouble" index="3" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">8.3260000000000005e+01</row><row type="TypeDouble" index="5" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="6" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="7" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="8" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="9" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="10" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="11" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="12" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="13" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="14" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="15" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="16" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="17" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="18" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="19" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="20" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="21" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="22" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="23" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="24" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="25" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="26" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="27" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="28" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="29" invalid="no">0.0000000000000000e+00</row></column><column creation_time="2015-11-11 22:32:06:785" caption_spec="%n%C{ - }%c" name="Im30HzEr" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2015-11-11 22:32:06:785" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2015-11-11 22:32:06:785" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">3.1049699999999998e+00</row><row type="TypeDouble" index="1" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">9.1703899999999994e+00</row><row type="TypeDouble" index="3" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">4.5252200000000000e+00</row></column><column creation_time="2015-12-11 10:13:38:529" caption_spec="%n%C{ - }%c" name="Im10Hz" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2015-12-11 10:13:38:529" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2015-12-11 10:13:38:529" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">9.4060000000000002e+01</row><row type="TypeDouble" index="1" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">7.8230000000000004e+01</row><row type="TypeDouble" index="3" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">7.8810000000000002e+01</row></column><column creation_time="2015-12-11 10:13:45:249" caption_spec="%n%C{ - }%c" name="Im10HzEr" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2015-12-11 10:13:45:249" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2015-12-11 10:13:45:249" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.2853900000000000e+00</row><row type="TypeDouble" index="1" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">8.7712800000000009e+00</row><row type="TypeDouble" index="3" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">5.4577400000000003e+00</row></column><column creation_time="2015-12-11 10:13:48:465" caption_spec="%n%C{ - }%c" name="Im5Hz" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2015-12-11 10:13:48:465" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2015-12-11 10:13:48:465" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">9.8450000000000003e+01</row><row type="TypeDouble" index="1" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">9.5489999999999995e+01</row><row type="TypeDouble" index="3" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">8.0319999999999993e+01</row></column><column creation_time="2015-12-11 10:14:31:593" caption_spec="%n%C{ - }%c" name="Im5HzEr" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2015-12-11 10:14:31:593" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2015-12-11 10:14:31:593" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.3169599999999999e+00</row><row type="TypeDouble" index="1" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">3.6476400000000000e+00</row><row type="TypeDouble" index="3" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">5.5238899999999997e+00</row></column><column_width column="0">251</column_width><column_width column="1">120</column_width><column_width column="2">120</column_width><column_width column="3">120</column_width><column_width column="4">120</column_width><column_width column="5">120</column_width><column_width column="6">120</column_width><column_width column="7">120</column_width><column_width column="8">120</column_width><column_width column="9">120</column_width><column_width column="10">120</column_width><column_width column="11">120</column_width><column_width column="12">120</column_width></table>
+geometry	217	262	1608	610	
+
+</table>
+<multiLayer>
+Graph1	1	1	22/07/15 13:34
+geometry	66	57	961	811	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	568	406
+Alignement	0	0
+<graph>
+ggeometry	6	5	943	753
+PlotTitle	Taxa de acerto - 30Hz	#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	10
+Border	2	#000000
+grid	0	0	1	1	#0000ff	0	0	#a0a0a4	2	0	#808080	0	1	#a0a0a4	2	1	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	 				
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	5124	4
+TitleFont	URW Gothic	26	63	0	0	0
+ScaleFont0	Cantarell	18	75	0	0	0
+ScaleFont1	Cantarell	18	75	0	0	0
+ScaleFont2	Cantarell	18	75	0	0	0
+ScaleFont3	Cantarell	18	75	0	0	0
+AxisFont0	URW Gothic	18	25	0	0	0
+AxisFont1	URW Gothic	18	25	0	0	0
+AxisFont2	URW Gothic	18	25	0	0	0
+AxisFont3	URW Gothic	18	25	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table1_1	Table1_L30Hz	3	1	0	0	1	7	0	0	0	1	1	0	30	0	2	0	0	4	1
+ErrorBars	1	Table1_1	Table1_L30Hz	Table1_L30HzEr	1	8	#000000	1	1	1
+scale	0	0	100	0	6	5	0	0
+scale	1	0	100	0	8	5	0	0
+scale	2	-1	7	0	9	0	0	0
+scale	3	-1	7	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	1;Table1_1	0	
+MajorTicks	1	1	0	1	
+MinorTicks	1	1	1	1	
+TicksLength	3	5
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<text>	0.539170506912442	66.7221297836938	URW Gothic	20	63	0	0	0	#000000	0	0	#ffffff	0	54,04%</text>
+<text>	2.52995391705069	99.8336106489185	URW Gothic	20	63	0	0	0	#000000	0	0	#ffffff	0	90,25%</text>
+<text>	4.53917050691244	100.332778702163	URW Gothic	20	63	0	0	0	#000000	0	0	#ffffff	0	90,67%</text>
+</graph>
+</multiLayer>
+<multiLayer>
+Graph5	1	1	11/11/15 22:44
+geometry	67	56	960	815	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<graph>
+ggeometry	5	5	941	756
+PlotTitle	Taxa de acerto - 10Hz	#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	10
+Border	2	#000000
+grid	0	0	1	1	#0000ff	0	0	#a0a0a4	2	0	#808080	0	1	#a0a0a4	2	1	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	 				
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	5124	4
+TitleFont	URW Gothic	26	63	0	0	0
+ScaleFont0	URW Gothic	18	25	0	0	0
+ScaleFont1	URW Gothic	18	25	0	0	0
+ScaleFont2	URW Gothic	18	25	0	0	0
+ScaleFont3	URW Gothic	18	25	0	0	0
+AxisFont0	URW Gothic	18	25	0	0	0
+AxisFont1	URW Gothic	18	25	0	0	0
+AxisFont2	URW Gothic	18	25	0	0	0
+AxisFont3	URW Gothic	18	25	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table1_1	Table1_L10Hz	3	1	0	0	1	7	0	0	0	1	1	0	30	0	2	0	0	4	1
+ErrorBars	1	Table1_1	Table1_L10Hz	Table1_L10HzEr	1	8	#000000	1	1	1
+scale	0	0	100	0	8	5	0	0
+scale	1	0	100	0	8	5	0	0
+scale	2	-1	7	0	9	0	0	0
+scale	3	-1	7	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	1;Table1_1	0	
+MajorTicks	1	1	0	1	
+MinorTicks	1	1	1	1	
+TicksLength	3	5
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<text>	0.542725173210162	52.1452145214521	URW Gothic	20	63	0	0	0	#000000	0	0	#ffffff	0	38,20%</text>
+<text>	2.5473441108545	66.996699669967	URW Gothic	20	63	0	0	0	#000000	0	0	#ffffff	0	50,82%</text>
+<text>	4.53348729792148	100.825082508251	URW Gothic	20	63	0	0	0	#000000	0	0	#ffffff	0	92,01%</text>
+</graph>
+</multiLayer>
+<multiLayer>
+Graph6	1	1	12/11/15 09:44
+geometry	67	57	960	815	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<graph>
+ggeometry	5	5	941	755
+PlotTitle	Taxa de acerto - 5Hz	#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	10
+Border	2	#000000
+grid	0	0	1	1	#0000ff	0	0	#a0a0a4	2	0	#808080	0	1	#a0a0a4	2	1	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	 				
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	5124	4
+TitleFont	URW Gothic	26	63	0	0	0
+ScaleFont0	URW Gothic	18	25	0	0	0
+ScaleFont1	URW Gothic	18	25	0	0	0
+ScaleFont2	URW Gothic	18	25	0	0	0
+ScaleFont3	URW Gothic	18	25	0	0	0
+AxisFont0	URW Gothic	18	25	0	0	0
+AxisFont1	URW Gothic	18	25	0	0	0
+AxisFont2	URW Gothic	18	25	0	0	0
+AxisFont3	URW Gothic	18	25	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table1_1	Table1_L5Hz	3	1	0	0	1	7	0	0	0	1	1	0	30	0	2	0	0	4	1
+ErrorBars	1	Table1_1	Table1_L5Hz	Table1_L5HzEr	1	8	#000000	1	1	1
+scale	0	0	100	0	7	5	0	0
+scale	1	0	100	0	8	5	0	0
+scale	2	-1	7	0	9	0	0	0
+scale	3	-1	7	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	1;Table1_1	0	
+MajorTicks	1	1	0	1	
+MinorTicks	1	1	1	1	
+TicksLength	3	5
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<text>	0.662817551963048	19.504132231405	URW Gothic	20	63	0	0	0	#000000	0	0	#ffffff	0	8,31%</text>
+<text>	2.6027713625866	12.7272727272727	URW Gothic	20	63	0	0	0	#000000	0	0	#ffffff	0	2,17%</text>
+<text>	4.54272517321016	100.165289256198	URW Gothic	20	63	0	0	0	#000000	0	0	#ffffff	0	91,57%</text>
+</graph>
+</multiLayer>
+<multiLayer>
+Graph7	1	1	12/11/15 10:15
+geometry	67	58	960	813	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<graph>
+ggeometry	5	5	940	753
+PlotTitle	Verdadeiros negativos - 30Hz	#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	10
+Border	2	#000000
+grid	0	0	1	1	#0000ff	0	0	#a0a0a4	2	0	#808080	0	1	#a0a0a4	2	1	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	 				
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	5124	4
+TitleFont	URW Gothic	26	63	0	0	0
+ScaleFont0	URW Gothic	18	25	0	0	0
+ScaleFont1	URW Gothic	18	25	0	0	0
+ScaleFont2	URW Gothic	18	25	0	0	0
+ScaleFont3	URW Gothic	18	25	0	0	0
+AxisFont0	URW Gothic	18	25	0	0	0
+AxisFont1	URW Gothic	18	25	0	0	0
+AxisFont2	URW Gothic	18	25	0	0	0
+AxisFont3	URW Gothic	18	25	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table1_1	Table1_Im30Hz	3	1	0	0	1	7	0	0	0	1	12	0	30	0	2	0	0	4	1
+ErrorBars	1	Table1_1	Table1_Im30Hz	Table1_Im30HzEr	1	8	#000000	1	1	1
+scale	0	0	107	0	7	5	0	0
+scale	1	0	107	0	8	5	0	0
+scale	2	-1	7	0	9	0	0	0
+scale	3	-1	7	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	1;Table1_1	0	
+MajorTicks	1	1	0	1	
+MinorTicks	1	1	1	1	
+TicksLength	3	5
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<text>	0.512727272727273	101.664819944598	URW Gothic	20	63	0	0	0	#000000	0	0	#ffffff	0	90,86%</text>
+<text>	2.54219653179191	68.0750407830343	URW Gothic	20	63	0	0	0	#000000	0	0	#ffffff	0	50,78%</text>
+<text>	4.53988439306358	96.352365415987	URW Gothic	20	63	0	0	0	#000000	0	0	#ffffff	0	83,26%</text>
+</graph>
+</multiLayer>
+<multiLayer>
+Graph8	1	1	12/11/15 10:28
+geometry	67	58	961	815	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<graph>
+ggeometry	5	5	945	758
+PlotTitle	Verdadeiros negativos - 10Hz	#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	10
+Border	2	#000000
+grid	0	0	1	1	#0000ff	0	0	#a0a0a4	2	0	#808080	0	1	#a0a0a4	2	1	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	 				
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	5124	4
+TitleFont	URW Gothic	26	63	0	0	0
+ScaleFont0	URW Gothic	18	25	0	0	0
+ScaleFont1	URW Gothic	18	25	0	0	0
+ScaleFont2	URW Gothic	18	25	0	0	0
+ScaleFont3	URW Gothic	18	25	0	0	0
+AxisFont0	URW Gothic	18	25	0	0	0
+AxisFont1	URW Gothic	18	25	0	0	0
+AxisFont2	URW Gothic	18	25	0	0	0
+AxisFont3	URW Gothic	18	25	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table1_1	Table1_Im10Hz	3	1	0	0	1	7	0	0	0	1	12	0	30	0	2	0	0	4	1
+ErrorBars	1	Table1_1	Table1_Im10Hz	Table1_Im10HzEr	1	8	#000000	1	1	1
+scale	0	0	107	0	8	5	0	0
+scale	1	0	107	0	8	5	0	0
+scale	2	-1	7	0	9	0	0	0
+scale	3	-1	7	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	1;Table1_1	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	0	1	
+TicksLength	3	5
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<text>	0.544827586206897	106.480582524272	URW Gothic	20	63	0	0	0	#000000	0	0	#ffffff	0	94,06%</text>
+<text>	2.53103448275862	94.7071197411003	URW Gothic	20	63	0	0	0	#000000	0	0	#ffffff	0	78,23%</text>
+<text>	4.53563218390805	92.6294498381877	URW Gothic	20	63	0	0	0	#000000	0	0	#ffffff	0	78,81%</text>
+</graph>
+</multiLayer>
+<multiLayer>
+Graph9	1	1	12/11/15 10:29
+geometry	66	57	962	815	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<graph>
+ggeometry	5	3	946	758
+PlotTitle	Verdadeiros negativos - 5Hz	#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	10
+Border	2	#000000
+grid	0	0	1	1	#0000ff	0	0	#a0a0a4	2	0	#808080	0	1	#a0a0a4	2	1	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	 				
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	5124	4
+TitleFont	URW Gothic	26	63	0	0	0
+ScaleFont0	URW Gothic	18	25	0	0	0
+ScaleFont1	URW Gothic	18	25	0	0	0
+ScaleFont2	URW Gothic	18	25	0	0	0
+ScaleFont3	URW Gothic	18	25	0	0	0
+AxisFont0	URW Gothic	18	25	0	0	0
+AxisFont1	URW Gothic	18	25	0	0	0
+AxisFont2	URW Gothic	18	25	0	0	0
+AxisFont3	URW Gothic	18	25	0	0	0
+EnabledTickLabels	1	1	1	0	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table1_1	Table1_Im5Hz	3	1	0	0	1	7	0	0	0	1	12	0	30	0	2	0	0	4	1
+ErrorBars	1	Table1_1	Table1_Im5Hz	Table1_Im5HzEr	1	8	#000000	1	1	1
+scale	0	0	107	0	7	5	0	0
+scale	1	0	107	0	8	5	0	0
+scale	2	-1	7	0	9	0	0	0
+scale	3	-1	7	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	1;Table1_1	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	0	1	
+TicksLength	3	5
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<text>	0.506314580941447	107	URW Gothic	20	63	0	0	0	#000000	0	0	#ffffff	0	98,45%</text>
+<text>	2.52698048220436	106.480582524272	URW Gothic	20	63	0	0	0	#000000	0	0	#ffffff	0	95,49%</text>
+<text>	4.54764638346728	93.495145631068	URW Gothic	20	63	0	0	0	#000000	0	0	#ffffff	0	80,32%</text>
+</graph>
+</multiLayer>
+<log>
+</log>

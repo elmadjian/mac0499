@@ -1,0 +1,4 @@
+texto: texto_0
+q1: b
+q2: d
+q3: d

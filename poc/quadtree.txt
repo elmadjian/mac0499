@@ -1,0 +1,18 @@
+Para fazer uma árvore que mede as colisões dos termos:
+https://github.com/karimbahgat/Pyqtree
+
+Para fazer busca de tradução de palavras gratuitamente usando JSON (1000 por dia):
+http://mymemory.translated.net/api/get?q=Hello World!&langpair=en|pt
+
+Dependências:
+-pyscreenshot
+-easyprocess
+-numpy
+-opencv
+-tesseract
+-zmq
+
+SUGESTÃO:
+em vez de usar screenshot e OCR, talvez seja melhor apenas JavaScript puro:
+http://jsfiddle.net/X6jvb/
+http://jsfiddle.net/aD5Mu/

@@ -1,0 +1,4 @@
+texto: texto_8skim
+q1: c
+q2: a
+q3: a

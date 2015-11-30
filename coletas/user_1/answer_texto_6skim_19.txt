@@ -1,0 +1,4 @@
+texto: texto_6skim
+q1: a
+q2: e
+q3: c

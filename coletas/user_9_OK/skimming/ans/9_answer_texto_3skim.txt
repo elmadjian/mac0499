@@ -1,0 +1,4 @@
+texto: texto_3skim
+q1: b
+q2: a
+q3: d

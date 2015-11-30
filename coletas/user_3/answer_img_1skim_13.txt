@@ -1,0 +1,2 @@
+texto: img_1skim
+q1: 51

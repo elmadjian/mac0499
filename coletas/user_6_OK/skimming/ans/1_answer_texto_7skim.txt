@@ -1,0 +1,4 @@
+texto: texto_7skim
+q1: a
+q2: c
+q3: b

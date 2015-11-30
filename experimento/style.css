@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.center {
+    background-color: white;
+    width: 700px;
+    min-height:100%;
+    overflow: visible;
+    left: 50%;
+    margin-left: -350px;
+    position: absolute;
+}
+
+h1 {
+    margin: 5px;
+}
+
+.pequeno {
+    font-size: 12pt;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin: 0 12px;
+}
+
+.grande {
+    font-size: 24pt;
+    font-family: sans-serif;
+    line-height: 48px;
+    margin: 0 12px;
+
+}
+
+#imagem {
+    display: none;
+    width: 690px;
+    margin: 0 5px;
+}
+
+#questionario {
+    display: none;
+    disabled: true;
+}
+
+#questionarioImagem {
+    display: none;
+    disabled: true;
+    margin: 0 5px;
+}
+
+#divTexto {
+    position: relative;
+}
+
+#escondeTexto {
+    position: absolute;
+    width: 700px;
+    height: 100%;
+    top: 0;
+}
+
+#fim {
+    background-color: white;
+    width: 700px;
+    height: 100%;
+    left: 50%;
+    margin-left: -350px;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    text-align: center;
+}

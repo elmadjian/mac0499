@@ -1,0 +1,4 @@
+texto: texto_13skim
+q1: c
+q2: c
+q3: a

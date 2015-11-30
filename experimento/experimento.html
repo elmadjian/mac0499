@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Experimento de leitura</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="estimulos.js"></script>
+    </head>
+    <body>
+        <div class="center">
+            <!-- TEXTO - LEITURA -->
+            <h1 id="titulo"></h1>
+            <div id="divTexto">
+                <p id="texto"></p>
+                
+                <!-- IMAGEM -->
+                <img id="imagem" src="" />
+                
+                <canvas id="escondeTexto"></canvas>
+            </div>
+            
+            <!-- QUESTIONÁRIO -->
+            <fieldset id="questionario">
+                <strong id="q1"></strong><br>
+                <input type="radio" name="q1" value="a" id="q1a" class="alt"> <label id="lq0" for="q1a"></label><br>
+                <input type="radio" name="q1" value="b" id="q1b" class="alt"> <label id="lq1" for="q1b"></label><br>
+                <input type="radio" name="q1" value="c" id="q1c" class="alt"> <label id="lq2" for="q1c"></label><br>
+                <input type="radio" name="q1" value="d" id="q1d" class="alt"> <label id="lq3" for="q1d"></label><br>
+                <input type="radio" name="q1" value="e" id="q1e" class="alt"> <label id="lq4" for="q1e"></label><br><br>
+                <strong id="q2"></strong><br>
+                <input type="radio" name="q2" value="a" id="q2a" class="alt"> <label id="lq5" for="q2a"></label><br>
+                <input type="radio" name="q2" value="b" id="q2b" class="alt"> <label id="lq6" for="q2b"></label><br>
+                <input type="radio" name="q2" value="c" id="q2c" class="alt"> <label id="lq7" for="q2c"></label><br>
+                <input type="radio" name="q2" value="d" id="q2d" class="alt"> <label id="lq8" for="q2d"></label><br>
+                <input type="radio" name="q2" value="e" id="q2e" class="alt"> <label id="lq9" for="q2e"></label><br><br>
+                <strong id="q3"></strong><br>
+                <input type="radio" name="q3" value="a" id="q3a" class="alt"> <label id="lq10" for="q3a"></label><br>
+                <input type="radio" name="q3" value="b" id="q3b" class="alt"> <label id="lq11" for="q3b"></label><br>
+                <input type="radio" name="q3" value="c" id="q3c" class="alt"> <label id="lq12" for="q3c"></label><br>
+                <input type="radio" name="q3" value="d" id="q3d" class="alt"> <label id="lq13" for="q3d"></label><br>
+                <input type="radio" name="q3" value="e" id="q3e" class="alt"> <label id="lq14" for="q3e"></label><br><br>
+                <input type="button" value="enviar" id="enviar_btn">
+            </fieldset>
+            
+            <!-- QUESTIONÁRIO - IMAGEM -->
+            <fieldset id="questionarioImagem">
+                <input name="q4" type="text" id="img_answer">
+                <input type="button" value="enviar" id="enviar_img_btn">
+            </fieldset>
+        </div>
+        <div id="fim">
+            <h1>Fim do experimento</h1>
+        </div>
+        
+        <script type="text/javascript">
+            
+            function shuffle(o) {
+            	for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+            	return o;
+            };
+        
+            function media(numeros) {
+                var total = 0;
+                if (numeros.length == 0) return 0;
+                for (var i = 0; i < numeros.length; i++) {
+                    total += numeros[i];
+                }
+                return total / numeros.length;
+            }
+            
+            function geraRange(a, b) {
+                var inicio = a;
+                var fim = b;
+                if (a === undefined) return [];
+                if (b === undefined) {
+                    inicio = 0;
+                    fim = a;
+                }
+                var range = [];
+                for (var i = inicio; i < fim; i++) {
+                    range.push(i);
+                }
+                return range;
+            }
+        
+            var velocidadeLeitura = 200;
+            var velocidadeSkimming = 700;
+            var Texto = function(titulo, texto, palavras, questoes, alternativas, id, tipo) {
+                this.titulo = titulo;
+                this.texto = texto;
+                this.palavras = palavras;
+                this.questoes = questoes;
+                this.alternativas = alternativas;
+                this.tipo = tipo; //0:normal, 1:grande, 2:skim
+            
+                this.grande = function() {
+                    return this.tipo === 1;
+                }
+            
+                this.skim = function() {
+                    return this.tipo === 2;
+                }
+            
+                var complemento = "";
+                if (this.skim()) complemento = "skim";
+                if (this.grande()) complemento = "grande";
+                this.id = id + complemento;
+            
+                this.montaTitulo = function() {
+                    var tempo = "";
+                    if (this.skim()) {
+                        tempo = "<font color=\"red\"> (" + Math.round(this.tempoMax() / 1000) + " s)</font>";
+                    }
+                    return this.titulo + tempo;
+                }
+
+                this.tempoMax = function() {
+                    var velocidade = velocidadeLeitura;
+                    if (this.skim()) velocidade = velocidadeSkimming;
+                    return this.palavras / velocidade * 60000; //ms
+                }
+            
+                this.classe = function() {
+                    if (this.grande()) return "grande";
+                    else return "pequeno";
+                }
+            
+                this.mostra = function() {
+                    document.getElementById('titulo').innerHTML = this.montaTitulo();
+                    document.getElementById('texto').innerHTML = texto;
+                    document.getElementById('texto').style.display = 'block';
+                    document.getElementById('texto').className = this.classe();
+                    document.getElementById('imagem').style.display = 'none';
+                    document.getElementById('questionario').style.display = 'none';
+                    document.getElementById('questionario').disabled = false;
+                    document.getElementById('questionarioImagem').style.display = 'none';
+                    document.getElementById('questionarioImagem').disabled = true;
+                
+                    // Preenche questionario
+                    document.getElementById('q1').innerHTML = questoes[0];
+                    document.getElementById('q2').innerHTML = questoes[1];
+                    document.getElementById('q3').innerHTML = questoes[2];
+                    for (var i = 0; i < 15 /*num de alternativas*/; i++)
+                        document.getElementById('lq'+i).innerHTML = alternativas[i];
+                    var alts = document.getElementsByClassName("alt");
+                    // Limpa seleções
+                    for (var i = 0; i < alts.length; i++) {
+                        alts[i].checked = false;
+                    }
+
+                    window.scrollTo(0,0);
+                }
+            }
+        
+            var Imagem = function(questao, imagem, id) {
+                this.questao = questao;
+                this.imagem = imagem;
+                this.id = id;
+            
+                this.mostra = function() {
+                    document.getElementById('titulo').innerHTML = questao;
+                    document.getElementById('imagem').src = imagem;
+                    document.getElementById('imagem').style.display = 'block';
+                    document.getElementById('texto').style.display = 'none';
+                    document.getElementById('questionario').style.display = 'none';
+                    document.getElementById('questionario').disabled = true;
+                    document.getElementById('questionarioImagem').style.display = 'none';
+                    document.getElementById('questionarioImagem').disabled = false;
+                }
+            }
+            
+            function geraTrials(args) {
+                var textoIds = args.textoIds;
+                var imgIds = args.imgIds;
+                var tipos = args.tipos;
+                
+                // Cria ids que não foram recebidos
+                if (textoIds === undefined) textoIds = geraRange(estimulos.textos.length);
+                if (imgIds === undefined) imgIds = geraRange(estimulos.imagens.length);
+                if (tipos === undefined) {
+                    tipos = [];
+                    for (var i = 0; i < textoIds.length; i++) {
+                        tipos.push(i % 3);
+                    }
+                    tipos = shuffle(tipos);
+                }
+                // Completa array de tipos
+                var aux = new Array(estimulos.textos.length);
+                for (var i = 0; i < textoIds.length; i++) {
+                    aux[textoIds[i]] = tipos[i];
+                }
+                tipos = aux;
+
+                //adiciona textos
+                var trials = textoIds.map(function(i) {
+                    return new Texto(estimulos.titulos[i], estimulos.textos[i], estimulos.palavras[i], 
+                        estimulos.questoes[i], estimulos.alternativas[i], "texto_" + i, tipos[i]);
+                });
+                //adiciona imagens
+                trials = trials.concat(imgIds.map(function(i) {
+                    return new Imagem(estimulos.questoesImagens[i], 
+                        estimulos.imagens[i], "img_" + i);
+                }));
+                return shuffle(trials);
+            }
+            
+            window.onload = function() {
+                var trialArgs = {
+                    imgIds: [2, 4, 5, 6, 9],
+                    textoIds: shuffle(geraRange(15)).slice(0, 10),
+                    tipos: [0, 0, 0, 0, 0, 2, 2, 2, 2, 2]
+                };
+                var trials = geraTrials(trialArgs);
+                
+                var started = false; //flag para indicar início da leitura
+                var palavrasNoTexto; //guarda quantas palavras o texto atual possui
+                var velocidades = []; //guarda as velocidades médias obtidas
+                var t0animacao; //tempo da animacao
+                var tempoMax; //tempo máximo para a leitura (ms)
+                //var alpha = 0.95;
+                var espera = 0.1; //tempo de espera antes de começar a animação
+                var socket = new WebSocket('ws://127.0.0.1:8089'); //conexão com o nodeJS
+                var id; //guarda o id atual
+                var escondeEstimulo;
+                var ultimaMudanca = 0; //timestamp da última mudança de tela (estímulo ou perguntas)
+                
+                function verificaMudanca() {
+                    var dt = new Date().valueOf() - ultimaMudanca;
+                    ultimaMudanca = new Date().valueOf();
+                    return dt > 1000;
+                }
+                
+                function comecaTrial() {
+                    if (!verificaMudanca()) return;
+                    
+                    if (trials.length) {
+                        id = trials[0].id;
+                        trials[0].mostra();
+                        t0animacao = new Date().valueOf();
+                        escondeEstimulo = true;
+                        if (trials[0] instanceof Texto) {
+                            if (!trials[0].skim()) escondeEstimulo = false;
+                            tempoMax = trials[0].tempoMax();
+                            desenhaAnimacao();
+                        }
+                        else {
+                            tempoMax = 40000;
+                            palavrasNoTexto = 0;
+                            desenhaAnimacao();
+                        }
+                        socket.send(JSON.stringify({type: "COLLECT", id: id}));
+                        trials.shift(); 
+                    }
+                    else
+                        document.getElementById('fim').style.display = 'block';
+                    started = true;
+                }
+                
+                function terminaTrial() {
+                    socket.send(JSON.stringify({type: "STOP", id: id}));
+                    
+                    if (!verificaMudanca()) return;
+                    
+                    if (!document.getElementById('questionario').disabled) {
+                        document.getElementById('questionario').style.display = 'block';
+                        document.getElementById('imagem').style.display = 'none';
+                        document.getElementById('texto').style.display = 'none';
+                    }
+                    else if (!document.getElementById('questionarioImagem').disabled) {
+                        document.getElementById('imagem').style.display = 'none';
+                        document.getElementById('texto').style.display = 'none';
+                        document.getElementById('questionarioImagem').style.display = 'block';
+                    }
+                    started = false;
+                }
+                
+                function desenhaAnimacao() {
+                    var decorrido = new Date().valueOf() - t0animacao;
+                    var canvas = document.getElementById('escondeTexto');
+                    var ctx = canvas.getContext('2d');
+                    var w = canvas.width;
+                    var h = canvas.height;
+                    var tempoEspera = espera * tempoMax;
+                    var alpha = Math.max(0, Math.min((decorrido - tempoEspera) / 
+                                                     (tempoMax - tempoEspera), 1));
+                    ctx.clearRect(0, 0, w, h);
+                    if (escondeEstimulo) {
+                        ctx.fillStyle="rgba(255,255,255," + alpha + ")";
+                        ctx.fillRect(0, 0, w, h);// * preenchimento);
+                    }
+                    if (alpha < 1) {
+                        setTimeout(desenhaAnimacao, 30);
+                    }
+                    else {
+                        ctx.clearRect(0, 0, w, h);
+                        terminaTrial();
+                    }
+                }
+                
+                //evento: barra de espaço
+                document.onkeyup = function(evt) {
+                    
+                    //iniciando leitura
+                    if (evt.keyCode == '32' && !started) {
+                        comecaTrial();
+                    }
+                    
+                    //término da leitura / mostra questionário
+                    else if (evt.keyCode == '32' && started) {
+                        terminaTrial();
+                    }
+                };
+                
+                //evento: botão 'enviar'
+                document.getElementById('enviar_btn').onclick = function() {
+                    var q1 = document.querySelector('input[name="q1"]:checked').value;
+                    var q2 = document.querySelector('input[name="q2"]:checked').value;
+                    var q3 = document.querySelector('input[name="q3"]:checked').value;
+                    socket.send(JSON.stringify(
+                        {type: "ANSWERS",
+                           id: id,
+                           q1: q1,
+                           q2: q2,
+                           q3: q3
+                    }));
+                    comecaTrial();
+                };
+                
+                //evento: botão 'enviar_img'
+                document.getElementById('enviar_img_btn').onclick = function() {
+                    var img_answer = document.getElementById('img_answer').value;
+                    socket.send(JSON.stringify(
+                        {type: "ANSWERS",
+                           id: id,
+                           q1: img_answer
+                        }));
+                    comecaTrial();
+                };
+            
+            }
+            
+            /*
+            
+            Javascript
+            --------
+            1. Colocar os textos num array de 10 posições
+            2. Colocar os questionários correspondentes em outro array
+            3. window.onload: escolher um texto aleatório
+            4. Inserir o texto escolhido na tag p; inserir o questionário correspondente na tag fieldset
+            5. EventListener para SPACEBAR -> mostra o texto/inicia a leitura
+            6. Outro EventListener ? para o término da leitura / mostra questionário
+            7. Calcular a velocidade de leitura (palavras/minuto) do usuário
+            8. Repetir passos 4-7 até cinco textos terem sido lidos
+            9. Utilizar o cálculo da velocidade de leitura para estimar tempo máximo para o skimming
+            10. Fazer algo semelhante aos passos 4-7, agora com skimming
+            11. Usamos um countdown e as linhas vão "desaparecendo" gradualmente
+            12. Quando o texto desaparecer por completo ou o usuário apertar SPACEBAR, finaliza
+            13. Mostra o questionário correspondente ao texto com skimming
+            14. Depois de repetir os passos 11-13 cinco vezes, faz algo semelhante com as imagens
+            15. Exibir as imagens e depois de um determinado tempo, mostrar a resposta correta (?)
+            
+            Coisas possivelmente necessárias:
+            -> Criar um canal de comunicação (JSON?) com o NodeJS para salvar arquivos de texto
+            -> Enviar por esse canal de comunicação uma requisição para iniciar / terminar coletas do Pupil   
+            */
+            
+        </script>
+    </body>
+</html>

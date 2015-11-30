@@ -1,0 +1,2 @@
+texto: img_6skim
+q1: 45
