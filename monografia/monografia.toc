@@ -1,0 +1,39 @@
+\select@language {brazil}
+\contentsline {section}{\numberline {1}Resumo}{5}
+\contentsline {section}{\numberline {2}Introdu\IeC {\c c}\IeC {\~a}o}{6}
+\contentsline {subsection}{\numberline {2.1}Motiva\IeC {\c c}\IeC {\~a}o}{6}
+\contentsline {subsection}{\numberline {2.2}Justificativa}{8}
+\contentsline {subsection}{\numberline {2.3}Objetivos}{9}
+\contentsline {subsection}{\numberline {2.4}Desafios}{10}
+\contentsline {section}{\numberline {3}Caracter\IeC {\'\i }sticas da leitura}{12}
+\contentsline {subsection}{\numberline {3.1}O movimento do olhar na leitura}{12}
+\contentsline {subsection}{\numberline {3.2}Depreendimentos do comportamento de leitura}{15}
+\contentsline {subsection}{\numberline {3.3}Diferen\IeC {\c c}as entre leitura e \textit {skimming}}{16}
+\contentsline {subsection}{\numberline {3.4}Reconhecimento de leitura por m\IeC {\'a}quina}{17}
+\contentsline {section}{\numberline {4}Algoritmos}{20}
+\contentsline {subsection}{\numberline {4.1}Algoritmo de Campbell e Maglio (2001)}{20}
+\contentsline {subsection}{\numberline {4.2}Algoritmo de Buscher et al. (2008)}{22}
+\contentsline {subsection}{\numberline {4.3}Algoritmo de Kollmorgen e Holmqvist (2007)}{24}
+\contentsline {section}{\numberline {5}Estudo da baixa taxa de amostragem}{26}
+\contentsline {subsection}{\numberline {5.1}A frequ\IeC {\^e}ncia de Nyquist}{26}
+\contentsline {subsection}{\numberline {5.2}Padr\IeC {\~o}es do olhar e o n\IeC {\'u}mero de amostras}{28}
+\contentsline {subsection}{\numberline {5.3}Resolu\IeC {\c c}\IeC {\~a}o m\IeC {\'\i }nima para detec\IeC {\c c}\IeC {\~a}o da pupila}{29}
+\contentsline {subsection}{\numberline {5.4}Estudo dos algoritmos e a amostragem}{30}
+\contentsline {section}{\numberline {6}Novo algoritmo}{33}
+\contentsline {subsection}{\numberline {6.1}Concep\IeC {\c c}\IeC {\~a}o e ideias centrais}{33}
+\contentsline {subsection}{\numberline {6.2}Implementa\IeC {\c c}\IeC {\~a}o}{35}
+\contentsline {subsection}{\numberline {6.3}Testes e metodologia}{38}
+\contentsline {subsection}{\numberline {6.4}Resultados}{39}
+\contentsline {subsection}{\numberline {6.5}Discuss\IeC {\~a}o}{40}
+\contentsline {section}{\numberline {7}Prova de conceito}{44}
+\contentsline {subsection}{\numberline {7.1}Idealiza\IeC {\c c}\IeC {\~a}o}{44}
+\contentsline {subsection}{\numberline {7.2}Descri\IeC {\c c}\IeC {\~a}o do software}{45}
+\contentsline {section}{\numberline {8}Conclus\IeC {\~o}es}{47}
+\contentsline {subsection}{\numberline {8.1}Eliminando os problemas da baixa taxa de amostragem}{47}
+\contentsline {subsection}{\numberline {8.2}Comunica\IeC {\c c}\IeC {\~a}o passiva como forma de intera\IeC {\c c}\IeC {\~a}o}{47}
+\contentsline {subsection}{\numberline {8.3}Consumo de energia e quest\IeC {\~o}es em aberto}{48}
+\contentsline {section}{\numberline {9}Parte subjetiva}{50}
+\contentsline {subsection}{\numberline {9.1}Dificuldades e frustra\IeC {\c c}\IeC {\~o}es}{50}
+\contentsline {subsection}{\numberline {9.2}Disciplinas relevantes}{52}
+\contentsline {subsection}{\numberline {9.3}Projetos futuros}{53}
+\contentsline {section}{\numberline {10}Refer\^encias Bibliogr\'aficas}{54}

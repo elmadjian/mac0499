@@ -1,0 +1,173 @@
+\begin{thebibliography}{10}
+
+\bibitem{OMAP}
+http://processors.wiki.ti.com/index.php/omap-l138\_power\_consumption\_summary.
+\newblock Acessado em 08-10-2015.
+
+\bibitem{Acuidade}
+https://commons.wikimedia.org/wiki/file:eyefixationsreading.gif.
+\newblock Acessado em 16-08-2015.
+
+\bibitem{Toms_Hardware}
+http://www.tomsguide.com/us/squeezing-more-life-out-of-your-notebook,review-583-26.html.
+\newblock Acessado em 15-08-2015.
+
+\bibitem{Belding-2008}
+David~French Belding and Kevin~J Mitchell.
+\newblock {\em Foundations of Analysis}.
+\newblock Courier Corporation, 2008.
+
+\bibitem{Biedert-2010}
+Ralf Biedert, Georg Buscher, Sven Schwarz, J{\"o}rn Hees, and Andreas Dengel.
+\newblock Text 2.0.
+\newblock In {\em CHI'10 Extended Abstracts on Human Factors in Computing
+  Systems}, pages 4003--4008. ACM, 2010.
+
+\bibitem{Bulling-2009}
+Andreas Bulling, Daniel Roggen, and Gerhard Tr{\"o}ster.
+\newblock {\em Wearable EOG goggles: eye-based interaction in everyday
+  environments}.
+\newblock ACM, 2009.
+
+\bibitem{Buscher-2008}
+Georg Buscher, Andreas Dengel, and Ludger van Elst.
+\newblock Eye movements as implicit relevance feedback.
+\newblock In {\em CHI '08 Extended Abstracts on Human Factors in Computing
+  Systems}, CHI EA '08, pages 2991--2996, New York, NY, USA, 2008. ACM.
+
+\bibitem{Campbell-2001}
+Christopher~S. Campbell and Paul~P. Maglio.
+\newblock A robust algorithm for reading detection.
+\newblock In {\em Proceedings of the 2001 Workshop on Perceptive User
+  Interfaces}, PUI '01, pages 1--7, New York, NY, USA, 2001. ACM.
+
+\bibitem{Sautoy-2008}
+Marcus Du~Sautoy.
+\newblock {\em A Música dos Números Primos}.
+\newblock Zahar, 2008.
+
+\bibitem{Duchowski-2002}
+Andrew~T. Duchowski.
+\newblock A breadth-first survey of eye-tracking applications.
+\newblock {\em Behavior Research Methods, Instruments and Computers},
+  34(4):455--470, 2002.
+
+\bibitem{Dyson-2001}
+Mary~C Dyson and Mark Haselgrove.
+\newblock The influence of reading speed and line length on the effectiveness
+  of reading from screen.
+\newblock {\em International Journal of Human-Computer Studies},
+  54(4):585--612, 2001.
+
+\bibitem{Goldberg-1999}
+Joseph~H. Goldberg and Xerxes~P. Kotval.
+\newblock Computer interface evaluation using eye movements: methods and
+  constructs.
+\newblock {\em International Journal of Industrial Ergonomics}, 24(6):631--645,
+  1999.
+
+\bibitem{Grenander-1959}
+U.~Grenander.
+\newblock {\em Probability and Statistics: The Harald Cram{\'e}r Volume}.
+\newblock Wiley Publications in Statistics. Almqvist \& Wiksell, 1959.
+
+\bibitem{Jerri-1977}
+Abdul~J Jerri.
+\newblock The shannon sampling theorem—its various extensions and
+  applications: A tutorial review.
+\newblock {\em Proceedings of the IEEE}, 65(11):1565--1596, 1977.
+
+\bibitem{Kassner-2014}
+Moritz Kassner, William Patera, and Andreas Bulling.
+\newblock Pupil: an open source platform for pervasive eye tracking and mobile
+  gaze-based interaction.
+\newblock In {\em Proceedings of the 2014 ACM International Joint Conference on
+  Pervasive and Ubiquitous Computing: Adjunct Publication}, pages 1151--1160.
+  ACM, 2014.
+
+\bibitem{Kollmorgen-2007}
+Sepp Kollmorgen and Kenneth Holmqvist.
+\newblock Automatically detecting reading in eye tracking data.
+\newblock {\em Lund University Cognitive Studies}, 2007.
+
+\bibitem{Kunze-2013}
+Kai Kunze, Yuzuko Utsumi, Yuki Shiga, Koichi Kise, and Andreas Bulling.
+\newblock I know what you are reading: Recognition of document types using
+  mobile eye tracking.
+\newblock In {\em Proceedings of the 2013 International Symposium on Wearable
+  Computers}, ISWC '13, pages 113--116, New York, NY, USA, 2013. ACM.
+
+\bibitem{Lee-1999}
+Choongkil Lee.
+\newblock Eye and head coordination in reading: roles of head movement and
+  cognitive control.
+\newblock {\em Vision Research}, 39(22):3761--3768, 1999.
+
+\bibitem{Mann-1997}
+Steve Mann.
+\newblock Wearable computing: A first step toward personal imaging.
+\newblock {\em Computer}, 30(2):25--32, 1997.
+
+\bibitem{Mann-1998}
+Steve Mann.
+\newblock Wearable computing as means for personal empowerment.
+\newblock In {\em Proc. 3rd Int. Conf. on Wearable Computing (ICWC)}, pages
+  51--59, 1998.
+
+\bibitem{Pavlidis-1981}
+George~T. Pavlidis.
+\newblock Do eye movements hold the key to dyslexia?
+\newblock {\em Neuropsychologia}, 19(1):57--64, 1981.
+
+\bibitem{Pouwelse-2001}
+Johan Pouwelse, Koen Langendoen, and Henk Sips.
+\newblock Dynamic voltage scaling on a low-power microprocessor.
+\newblock In {\em Proceedings of the 7th annual international conference on
+  Mobile computing and networking}, pages 251--259. ACM, 2001.
+
+\bibitem{Rabiner-1989}
+Lawrence~R. Rabiner.
+\newblock A tutorial on hidden markov models and selected applications in
+  speech recognition.
+\newblock {\em Proceedings of the IEEE}, 77(2):257--286, 1989.
+
+\bibitem{Rayner-1998}
+Keith Rayner.
+\newblock Eye movements in reading and information processing: 20 years of
+  research.
+\newblock {\em Psychological bulletin}, 124(3):372, 1998.
+
+\bibitem{Rayner-2001}
+Keith Rayner, Barbara~R Foorman, Charles~A Perfetti, David Pesetsky, and Mark~S
+  Seidenberg.
+\newblock How psychological science informs the teaching of reading.
+\newblock {\em Psychological science in the public interest}, 2(2):31--74,
+  2001.
+
+\bibitem{Reichle-1998}
+Erik~D. Reichle, Alexander Pollatsek, Donald~L. Fisher, and Keith Rayner.
+\newblock Toward a model of eye movement control in reading.
+\newblock {\em Psychological review}, 105(1):125, 1998.
+
+\bibitem{Shannon-1949}
+Claude~E. Shannon.
+\newblock Communication in the presence of noise.
+\newblock {\em Proceedings of the IRE}, 37(1):10--21, 1949.
+
+\bibitem{Starner-2001}
+Thad Starner.
+\newblock The challenges of wearable computing: Part 1.
+\newblock {\em IEEE Micro}, (4):44--52, 2001.
+
+\bibitem{Sutherland-1968}
+Ivan~E Sutherland.
+\newblock A head-mounted three dimensional display.
+\newblock In {\em Proceedings of the December 9-11, 1968, fall joint computer
+  conference, part I}, pages 757--764. ACM, 1968.
+
+\bibitem{VanRullen-2003}
+Rufin VanRullen and Christof Koch.
+\newblock Is perception discrete or continuous?
+\newblock {\em Trends in cognitive sciences}, 7(5):207--213, 2003.
+
+\end{thebibliography}

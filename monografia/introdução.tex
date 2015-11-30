@@ -1,0 +1,164 @@
+\documentclass[12pt]{article}
+
+%% Escrevendo em português
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage[latin1]{inputenc}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage[a4paper,margin={1in}]{geometry}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{url}
+
+%% Pulando linhas
+\renewcommand{\baselinestretch}{2}
+
+\newcommand{\vsp}{\vspace{0.2in}}
+\newcommand{\etal}{{\it et al.}} 
+\newcommand{\aluno}{{Carlos Eduardo Leão Elmadjian}}
+\newcommand{\link}{\textit{link}} 
+\newcommand{\links}{\textit{links}} 
+
+
+\begin{document}
+	
+	\clearpage
+	\thispagestyle{empty}
+	
+	\begin{minipage}[t]{6in}
+		\begin{center}
+			UNIVERSIDADE DE SÃO PAULO \\
+			INSTITUTO DE MATEMÁTICA E ESTATÍSTICA\\
+			DEPARTAMENTO DE CIÊNCIA DA COMPUTAÇÃO\\
+			\vspace{5em}
+			{\Large \textbf{Detecção de padrões de leitura por rastreadores de baixo desempenho}}\\
+			\vspace{2em}
+			{\large \textbf{Relatório parcial para a disiciplina MAC0499}}\\
+			\vspace{2em} 
+		\end{center}
+		
+		\vspace{8em}
+		{\large \textbf{Aluno:} \aluno{}\\ }
+		\vsp
+		{\large \textbf{Orientador:} Prof. Dr. Carlos Hitoshi Morimoto\\}
+		
+		
+	\end{minipage}
+	
+	\vspace{150pt}
+	
+	
+	\newpage
+	
+	\vsp
+	
+	%================================================================	
+	\section{Resumo}
+	
+	Neste trabalho, exploramos 
+	
+	%================================================================
+	\section{Introdução}
+	
+		%------------------------------------------------------------
+		\subsection{Motivação}
+		
+		
+		%------------------------------------------------------------
+		\subsection{Justificativa}
+	
+		%------------------------------------------------------------
+		\subsection{Objetivos}
+		
+		%------------------------------------------------------------
+		\subsection{Desafios}
+	
+	%================================================================	
+	\section{Características da leitura}
+	
+		%------------------------------------------------------------
+		\subsection{O movimento do olhar na leitura}
+		
+		%------------------------------------------------------------
+		\subsection{Depreendimentos do comportamento de leitura}
+		
+		%------------------------------------------------------------
+		\subsection{Diferenças entre leitura e \textit{skimming}}
+		
+		%------------------------------------------------------------
+		\subsection{Como reconhecer a leitura por máquina}
+		
+	%================================================================
+	\section{Algoritmos}
+	
+		%------------------------------------------------------------
+		\subsection{Algoritmo de Campbell e Maglio (2001)}
+		
+		%------------------------------------------------------------
+		\subsection{Algoritmo de Buscher et al. (2008)}
+		
+		%------------------------------------------------------------
+		\subsection{Algoritmo de Kollmorgen e Holmqvist (2007)}
+		
+	%================================================================
+	\section{Estudo da baixa amostragem}
+		
+		%------------------------------------------------------------
+		\subsection{A frequência de Shannon-Nyquist}
+		
+		%------------------------------------------------------------
+		\subsection{Padrões do olhar e o número de amostras}
+		
+		%------------------------------------------------------------
+		\subsection{Resolução mínima para detecção da pupila}
+		
+		%------------------------------------------------------------
+		\subsection{Estudo das soluções}
+	
+	%================================================================	
+	\section{Novo algoritmo}
+		
+		%------------------------------------------------------------
+		\subsection{Concepção}
+		
+		%------------------------------------------------------------
+		\subsection{Implementação}
+		
+		%------------------------------------------------------------
+		\subsection{Testes e metodologia}
+		
+		%------------------------------------------------------------
+		\subsection{Resultados}
+		
+		%------------------------------------------------------------
+		\subsection{Discussão}
+		
+	%================================================================
+	\section{Prova de conceito}
+	
+		%------------------------------------------------------------
+		\subsection{Idealização e tentativas iniciais}
+		
+		%------------------------------------------------------------
+		\subsection{Descrição do software}
+		
+		%------------------------------------------------------------
+		\subsection{Possibilidades e futuras aplicações}
+		
+	%================================================================
+	\section{Conclusões}
+	
+		%------------------------------------------------------------
+		\subsection{Eliminando o \textit{aliasing} na detecção da leitura}
+		
+		%------------------------------------------------------------
+		\subsection{Comunicação passiva como forma de interação}
+		
+		%------------------------------------------------------------
+		\subsection{Dificuldades a serem superadas}
+		
+		
+\bibliographystyle{plain}
+\bibliography{references} 
+
+\end{document}

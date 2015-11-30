@@ -1,0 +1,43 @@
+1.Resumo
+
+2.Introdução
+    2.1.Motivação
+    2.2.Justificativa
+    2.3.Objetivos
+    2.4.Desafios
+
+3.Características da leitura
+    3.1.O movimento do olhar na leitura
+    3.2.Depreendimentos do comportamento de leitura
+    3.2.Diferenças entre leitura e skimming
+    3.4.Como uma máquina reconhece a leitura 
+
+4.Algoritmos
+    4.1.Algoritmo de Campbell e Maglio
+    4.2.Algoritmo de Buschet et al.
+    4.3.Algoritmo de Kollmorgen e Holmqvist
+
+5.Estudo da baixa frequência
+    5.1.Frequência de Shannon-Nyquist
+    5.2.Padrões do olhar e o número de amostras
+    5.3.Resolução mínima para detecção da pupila
+    5.3.Soluções
+
+6.Novo algoritmo
+    6.1.Ideia
+    6.2.Implementação
+    6.3.Testes e metodologia
+    6.4.Resultados
+    6.5.Discussão
+
+7.Prova de conceito
+    7.1.Idealização e propostas iniciais
+    7.2.Descrição do software
+    7.3.Possibilidades e futuras aplicações
+
+8.Conclusões
+    8.1.Eliminando o aliasing na detecção de leitura
+    8.2.Comunicação inconsciente como uma nova interação
+    8.3.Dificuldades a serem superadas
+
+

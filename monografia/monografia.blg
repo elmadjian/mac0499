@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Arch Linux)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: monografia.aux
+The style file: plain.bst
+Database file #1: references.bib
+Warning--to sort, need author or key in Toms_Hardware
+Warning--to sort, need author or key in OMAP
+Warning--to sort, need author or key in Acuidade
+Warning--there's a number but no volume in Starner-2001
+You've used 30 entries,
+            2118 wiz_defined-function locations,
+            709 strings with 8943 characters,
+and the built_in function-call counts, 9979 in all, are:
+= -- 1030
+> -- 351
+< -- 8
++ -- 150
+- -- 112
+* -- 647
+:= -- 1563
+add.period$ -- 95
+call.type$ -- 30
+change.case$ -- 142
+chr.to.int$ -- 0
+cite$ -- 34
+duplicate$ -- 417
+empty$ -- 861
+format.name$ -- 112
+if$ -- 2169
+int.to.chr$ -- 0
+int.to.str$ -- 30
+missing$ -- 31
+newline$ -- 150
+num.names$ -- 54
+pop$ -- 172
+preamble$ -- 1
+purify$ -- 116
+quote$ -- 0
+skip$ -- 299
+stack$ -- 0
+substring$ -- 710
+swap$ -- 107
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 112
+warning$ -- 4
+while$ -- 103
+width$ -- 32
+write$ -- 329
+(There were 4 warnings)

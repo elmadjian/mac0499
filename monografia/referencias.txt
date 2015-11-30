@@ -1,0 +1,38 @@
+Embasamento teórico:
+
+JUSTIFICATIVA
+    - Pouwelse et al. - Dynamic Voltage Scaling on a low-power microprocessor
+        (fala na introdução que o consumo de energia é o fator limitante para wearables)
+
+LEITURA
+    - Rayner - Eye Moviments in Reading and Information Processing
+        (fala de tipos de leitura, padrões, significados dos dados. Imprescindível ao trabalho)
+    - Rayner - How psychological science informs teaching of reading 
+        (mesmo do anterior, mas só a partir da página 46)
+    - Dyson - The effects of reading speed and reading patterns on the understanding...
+        (apresenta uma série de testes realizados para medir entendimento na tela do computador)
+    - Dyson - The influence of reading speed and line length on the effectiveness...
+        (semelhante ao anterior)
+    - Reichle - Toward a model of eye movement control in reading
+        (relata um modelo sobre o comportamento da leitura e compreensão)
+
+APLICAÇÕES
+    - Jakob - Eye tracking in human-computer interaction and usability research
+    - Kunze - I know what you are reading
+        (determinação dos tipos de documentos lidos baseando-se apenas no olhar)
+    - Biedert - Reading and estimating gaze on smartphones
+    - Biedert - Towards robust gaze-based objective quality measures for text
+        (Mostra como informações do olhar podem fornecer pistas sobre a qualidade do texto)
+    - Iqbal - Using eye gaze patterns to identify user tasks
+        (Não interromper o usuário quando estiver lendo, por exemplo)
+    - LIVRO: Designing for Digital Reading
+
+ALGORITMO
+    - Salvucci - Identifying fixations and saccades in eye tracking protocols
+        (fala das técnicas existentes para detecção de fixações e sacadas e faz uma comparação delas)
+    - Sereno - Measuring word recognition in reading
+        (medições e benchmarks para atividades do olhar na leitura)
+    - Reichle - Toward a model of eye movement control in reading
+        (muitos dados sobre o tempo gasto em cada etapa da leitura)
+    - Iqbal - Using eye gaze patterns to identify user tasks
+        (o padrão de leitura é diferente em função da dificuldade do texto)
